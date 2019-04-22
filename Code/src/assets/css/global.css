@@ -1,0 +1,43 @@
+html,body,#app{
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+/*给home的左侧功能按钮设置样式*/
+/* .el-submenu__title,
+.el-menu-item
+{font-size:13px;} */
+
+/*给左侧功能按钮图标设置样式*/
+i.iconfont{
+  margin-right:10px;
+}
+
+/*给各个功能模块的card卡片区设置统一样式*/
+.box-card{
+  margin-top:15px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+}
+
+/*给el-table设置统一样式*/
+.el-table{
+  margin-top:15px;
+  font-size:12px;
+}
+
+/*给el-pagination分页统一设置样式*/
+.el-pagination{
+  margin-top:15px;
+  font-size:12px;
+}
+
+/*给添加商品的 步骤条 设置样式*/
+.el-step__title{
+  font-size:12px;
+}
+
+/*给富文本编辑器设置编辑区域高度*/
+.ql-editor{
+  height:200px;
+}
